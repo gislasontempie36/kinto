@@ -15,7 +15,10 @@ cat << EOF > /etc/config.json
                 ]
             },
             "streamSettings": {
-                "network": "ws"
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/helloworld"
+                }
             }
         }
     ],
